@@ -7,7 +7,7 @@ app = FastAPI()
 
 chat_sessions: Dict[str, List[dict]] = {}
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 class ChatRequest(BaseModel):
     session_id: str | None = None
